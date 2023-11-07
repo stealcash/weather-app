@@ -9,8 +9,7 @@ This project was bootstrapped with [Create React App]
 ## Live on:
 
 ### Netlify 
-https://dashing-pony-f6e4b4.netlify.app/dev/
-
+https://654ab57c077e342a4cecee38--dashing-pony-f6e4b4.netlify.app/
 ## Features for App
 
 - **Check Current Weather by Searching with location or cordinates**
