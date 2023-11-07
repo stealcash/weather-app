@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App]
 
 **React, Typescript, moment, axio**
 
+## Live on:
+
+### Netlify 
+https://dashing-pony-f6e4b4.netlify.app/dev/
+
 ## Features for App
 
 - **Check Current Weather by Searching with location or cordinates**
