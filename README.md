@@ -1,6 +1,43 @@
-# Getting Started with Create React App
+# React Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App]
+
+## Module Used
+
+**React, Typescript, moment, axio**
+
+## Features for App
+
+- **Check Current Weather by Searching with location or cordinates**
+- **Extended forecast upto 14 days**
+- **Check upcoming date forecast full info by selecting date**
+- **Click on Detact Button for get Current location data**
+
+
+## How to use this Repo
+
+First you need an API key from openweather,  create an account on https://www.weatherapi.com/ and get your api key.
+Once you get your API key, go to config.ts file in src directory and replace your api key.
+
+```
+WEATHER_API_KEY=YOUR_KEY_FROM_Site
+```
+Lastly, clone this repository, set up the local server, and install the dependencies.
+
+```bash
+git clone https://github.com/stealcash/weather-app.git
+```
+
+```bash
+cd weather-app
+npm install
+npm start
+```
+
+## Credits
+
+[weatherapi](https://www.weatherapi.com/ 'weatherapi') (All Weather API)
+
 
 ## Available Scripts
 
@@ -27,20 +64,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
